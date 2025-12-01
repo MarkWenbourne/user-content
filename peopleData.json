@@ -13,8 +13,29 @@
       {
         "caption": "Luke looking pensive.",
         "url": "https://esq.h-cdn.co/assets/15/43/980x490/landscape-1445356666-star-wars-luke-skywalker-tatooine.jpg"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "Caption from Insomnia"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "Caption from Insomnia #2"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "Caption from Insomnia #3"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "Caption from Insomnia #4"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "Caption from Insomnia #5"
       }
-    ]
+    ],
+    "_locals": {}
   },
   "leia": {
     "name": "Princess Leia",
