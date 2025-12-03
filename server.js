@@ -32,40 +32,24 @@ app.get("/people/:person", function (req, res, next) {
 
 app.post("/people/:person/addPhoto", function (req, res, next) {
   var person = req.params.person.toLowerCase()
-<<<<<<< HEAD
   console.log("req.body:", req.body)
-=======
-  console.log("== req.body:", req.body)
->>>>>>> 3d66be25411cd4ac9b03d2b51582aaf6aa012af4
   if (peopleData[person]) {
     if (req.body && req.body.url && req.body.caption) {
       var photo = {
         url: req.body.url,
         caption: req.body.caption
       }
-<<<<<<< HEAD
       console.log("photo:", photo)
       peopleData[person].photos.push(photo)
       console.log("peopleData[person].photos:", peopleData[person].photos)
-=======
-      console.log("  -- photo:", photo)
-      peopleData[person].photos.push(photo)
-      console.log("  -- peopleData[person].photos:", peopleData[person].photos)
->>>>>>> 3d66be25411cd4ac9b03d2b51582aaf6aa012af4
       fs.writeFileSync(
         "./peopleData.json",
         JSON.stringify(peopleData, null, 2)
       )
-<<<<<<< HEAD
 
       res.status(200).send("Received a photo!")
     } else {
       res.status(400).send("Need a request body with 'url' and 'caption'")
-=======
-      res.status(200).send("Received a photo!")
-    } else {
-      res.status(400).send("Need a request body with `url` and `caption`")
->>>>>>> 3d66be25411cd4ac9b03d2b51582aaf6aa012af4
     }
   } else {
     next()
