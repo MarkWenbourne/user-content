@@ -94,8 +94,29 @@
       {
         "caption": "Finn feeling pretty good about his situation.",
         "url": "https://vignette.wikia.nocookie.net/starwars/images/6/64/FinnPhasma-TFA.png"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "Test"
+      },
+      {
+        "url": "https://picsum.photos/700",
+        "caption": "Client-Side Caption"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "test"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "test 2"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "test"
       }
-    ]
+    ],
+    "_locals": {}
   },
   "r2d2": {
     "name": "R2-D2",
@@ -111,7 +132,20 @@
       {
         "caption": "R2 and his best pal.",
         "url": "https://cdn.theatlantic.com/assets/media/img/mt/2015/12/MV5BOTcwMTg0NDcxMl5BMl5BanBnXkFtZTcwMjEyMTIyMw._V1_SX1224_SY560_-2/lead_720_405.jpg"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "test"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "test"
+      },
+      {
+        "url": "https://picsum.photos/510",
+        "caption": "test #3"
       }
-    ]
+    ],
+    "_locals": {}
   }
 }
